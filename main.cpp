@@ -10,7 +10,7 @@ string game(char, string, string&);
 int main() {
     cout << "\nWelcome to Bruno's Hangman!" << endl;
     
-    vector<string> wordsList = {"feast", "guitar", "glue", "body", "wilderness"};
+    vector<string> wordsList = {"bad","easy","lol","hurt","gay","code","hate","kill","ice","fire","icecream","hangman","destroy","computer","book","dictionary","technology","power","thunder","controller","dexterity","keyboard","thunderous","blizzard","hazardous","algorithm","destruction","operation","assignment","despicable"};
     srand(time(NULL));
     string randomWord = {wordsList.at(rand() % (wordsList.size()-1))};
     
